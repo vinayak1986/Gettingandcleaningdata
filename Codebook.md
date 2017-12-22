@@ -1,6 +1,6 @@
 Study Section
 =============
-The data set for this project was obtained from the course site at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The data set for this project was obtained from the course site at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 Below provided is a high-level overview of the steps performed in the cleaning process involved:
 1.	The training data set with 561 time & frequency domain variables was imported from _X_train.txt_.
 2.	The test data set with the same variables was imported from _X_test.txt_.
