@@ -19,6 +19,7 @@ Below provided is a high-level overview of the steps performed in the cleaning p
 ## Code Book
 This section lists the various variables included in the final tidy data set.
 1.	**Activity**
+
 This variable has the various Activity names listed which correspond to the Activity codes in the original data set. These pertain to the 6 activities performed by the subjects in the experiment.
 
 * WALKING (Activity Code 1)
