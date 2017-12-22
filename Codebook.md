@@ -1,20 +1,6 @@
 Study Section
 =============
 The data set for this project was obtained from the course site at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-Below provided is a high-level overview of the steps performed in the cleaning process involved:
-1.	The training data set with 561 time & frequency domain variables was imported from _X_train.txt_.
-2.	The test data set with the same variables was imported from _X_test.txt_.
-3.	The activity labels list for the training data was imported from _Y_train.txt_.
-4.	The activity labels list for the test data was imported from _Y_test.txt_.
-5.	The subjects list for the train & test data were imported from _subject_train.txt_ & _subject_test.txt_ respectively.
-6.	The activity & subjects list vectors were merged to the corresponding data sets (train & test).
-7.	The test & train data sets were merged together to create the cumulative data set.
-8.	The variables for the data set was imported from _features.txt_.
-9.	The data set was reduced to a smaller data set with only the mean & standard deviation variables from the initial one with 561 variables.
-10.	The activity codes in the observations were replaced with proper descriptions.
-11.	The variable names were changed to be more descriptive of the observations held by them.
-12.	The final data set was sorted & summarized (showing the Average of all numeric variables) by the Activity & Subject variables.
-13.	The data set was written to _final.txt_.
 
 ## Code Book
 This section lists the various variables included in the final tidy data set.
