@@ -9,7 +9,7 @@ Below provided is a high-level overview of the steps performed in the cleaning p
 5.	The subjects list for the train & test data were imported from _subject_train.txt_ & _subject_test.txt_ respectively.
 6.	The activity & subjects list vectors were merged to the corresponding data sets (train & test).
 7.	The test & train data sets were merged together to create the cumulative data set.
-8.	The variables for the data set was imported from features.txt.
+8.	The variables for the data set was imported from _features.txt_.
 9.	The data set was reduced to a smaller data set with only the mean & standard deviation variables from the initial one with 561 variables.
 10.	The activity codes in the observations were replaced with proper descriptions.
 11.	The variable names were changed to be more descriptive of the observations held by them.
