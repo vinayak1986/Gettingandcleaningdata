@@ -1,5 +1,5 @@
 # Overview
-The _run_analysis.R_ script loads & merges the test & train data sets from the working directory as detailed in the Codebook. It also cleans & tidies the data sets for further analysis. Below provided is a high-level overview of the steps performed in the cleaning process involved:
+The _run_analysis.R_ script loads & merges the test & train data sets from the working directory. It also cleans & tidies the data sets for further analysis. Below provided is a high-level overview of the steps performed in the cleaning process involved:
 1.	The training data set with 561 time & frequency domain variables was imported from _X_train.txt_.
 2.	The test data set with the same variables was imported from _X_test.txt_.
 3.	The activity labels list for the training data was imported from _Y_train.txt_.
